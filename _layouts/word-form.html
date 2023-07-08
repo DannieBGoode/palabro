@@ -41,13 +41,20 @@ layout: default
     {% endif %}
 
     {% if page.categories %}
-      <ul class="block">
+      <ul class="block" id="result-list">
+        <li class="my-3 flex justify-between" style="border-bottom:solid 1px rgba(0, 0, 0, 0.0941176471);padding: 8px 12px;">
+          <span><strong>Details</strong></span>
+        </li>
         {% for category in page.categories %}
+          {% assign categoryClass = category | replace: ' ', '' | downcase %}
           <li class="my-3 flex justify-between" style="border-bottom:solid 1px rgba(0, 0, 0, 0.0941176471);padding: 8px 12px;">
             <span>{{ category }}:</span>
-            <span class="result-{{category}} p-1 px-3 mr-1 mb-1 inline-block text-xs font-mono rounded bg-green-200 text-green-800 hover:bg-blue-200 hover:text-blue-800 transition duration-300 ease-in-out">{{ category }}</span>
+            <span class="result-{{ category | downcase }} p-1 px-3 mr-1 mb-1 inline-block text-xs font-mono rounded bg-green-200 text-green-800 hover:bg-blue-200 hover:text-blue-800 transition duration-300 ease-in-out">{{ category }}</span>
           </li>
         {% endfor %}
+        <li class="my-3 flex justify-between" style="border-bottom:solid 1px rgba(0, 0, 0, 0.0941176471);padding: 8px 12px;">
+          <span><strong>Keyword Density</strong></span>
+        </li>
       </ul>
     {% endif %}
   </div>
