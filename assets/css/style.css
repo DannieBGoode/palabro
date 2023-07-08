@@ -5,8 +5,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import "custom";
-@import "syntax/monokai";
+@import "custom.css";
+@import "syntax/monokai.css";
 
 @layer components {
   .heading {
