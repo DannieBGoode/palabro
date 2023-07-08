@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const charactersResult = document.querySelector('.result-characters');
     const sentencesResult = document.querySelector('.result-sentences');
     const paragraphsResult = document.querySelector('.result-paragraphs');
-    const readingTimeResult = document.querySelector('.result-reading-time');
-    const speakingTimeResult = document.querySelector('.result-speaking-time');
+    const readingTimeResult = document.querySelector('.result-readingtime');
+    const speakingTimeResult = document.querySelector('.result-speakingtime');
     const resultList = document.getElementById('result-list');
 
     function updateCounts() {
