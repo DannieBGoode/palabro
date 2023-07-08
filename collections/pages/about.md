@@ -3,39 +3,30 @@ layout: basic
 title: "About Us"
 date: 2018-11-28T15:15:34+10:00
 permalink: "/about/"
-description: "Business plan hackathon handshake responsive web design."
+description: "Palabro Monster team"
 image: "https://source.unsplash.com/Dq5P6eWZXNY/1600x900"
 ---
 
-# Creating Modern Websites
+# About Palabro Monster
 
-Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+Welcome to Palabro Monster, a powerful word analysis tool designed to enhance your writing experience. Whether you're an author, student, or professional writer, Palabro Monster is here to assist you in improving your writing skills and optimizing your content.
 
-Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all. Web design partially overlaps web engineering in the broader scope of web development.
+Our goal is to provide you with essential insights into your text by offering a range of helpful features. From word counting to reading time estimation and keyword density analysis, Palabro Monster equips you with the tools you need to create compelling and impactful written content.
 
-## What is Web Design?
+## Features
 
-User experience is about how a user interacts with, and experiences, a particular product, system or service. As a UX designer, you should consider the Why, What and How of product use.
+1. **Word Count and Character Count**: Easily determine the number of words and characters in your text. Whether you have a specific word limit to meet or want to keep track of your progress, Palabro Monster provides accurate and real-time counts.
 
-## Front-end Development
+2. **Sentence and Paragraph Count**: Analyze the structure of your text by identifying the number of sentences and paragraphs. This feature helps you understand the organization and flow of your writing.
 
-The What addresses the things people can do with a product—its functionality. Finally, the How relates to the design of functionality in an accessible and aesthetically pleasant way. UX designers start with the Why before determining the What and then, finally, the How in order to create products that users can form meaningful experiences with. In software designs, you will need to ensure the product’s “substance” comes through an existing device and offers a seamless, fluid experience.
+3. **Reading and Speaking Time Estimation**: Gain insights into the time it takes to read or speak your text. Palabro Monster calculates reading and speaking time based on average speeds, allowing you to estimate how long it will take for your audience to engage with your content.
 
-> As a UX designer, you should consider the Why, What and How of product use.
+4. **Keyword Density Analysis**: Discover the frequency and distribution of keywords in your text. Palabro Monster identifies the top 10 most frequently used words, helping you optimize your content and avoid overusing certain terms. Achieve a balanced keyword distribution for enhanced readability and search engine optimization (SEO).
 
-Web designers are expected to have an awareness of usability and if their role involves creating markup then they are also expected to be up to date with web accessibility guidelines.
+We aim to provide a user-friendly interface that allows you to effortlessly analyze and refine your writing. Simply paste your text into the text box, and Palabro Monster will provide you with valuable information about your content. Whether you're writing an article, essay, report, story, book, or any other form of written material, our tool will help you meet specific requirements and deliver high-quality results.
 
-## Design Systems
+> The art of writing is the art of discovering what you believe." - Gustave Flaubert
 
-A Design System is a set of interconnected patterns and shared practices coherently organized to aid in digital product design and development of products such as apps or websites.
+Please note that while we strive to make our tool as accurate as possible, there may be limitations and occasional variations in the results. Palabro Monster should be used as a helpful guide and a means to enhance your writing process, but final proofreading and editing are still recommended.
 
-## Process
-
-There are two primary jobs involved in creating a website: the web designer and web developer, who often work closely together on a website. The web designers are responsible for the visual aspect, which includes the layout, coloring and typography of a web page.
-
-- User experience research
-- Visual design and illustration
-- Programming and coding
-
-
-Web designers will also have a working knowledge of markup languages such as HTML and CSS, although the extent of their knowledge will differ from one web designer to another.
+Start using Palabro Monster today to elevate your writing skills and create impactful content. Bookmark this page for quick access and make the most of this powerful word analysis tool. Happy writing!
