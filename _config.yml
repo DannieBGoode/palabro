@@ -73,3 +73,13 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - netlify.toml
+
+postcss:
+  source: './assets/css/'
+  destination: './assets/'
+  extname: '.css'
+  plugins:
+    - name: 'postcss-import'
+    - name: 'tailwindcss'
+    - name: 'autoprefixer'
+    - name: 'postcss-nested'
