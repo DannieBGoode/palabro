@@ -22,7 +22,7 @@ layout: default
         {% for category in page.categories %}
           {% assign categoryClass = category | replace: ' ', '' | downcase %}
           <li class="my-3 flex justify-between result-line">
-            <span>{{ category }}:</span>
+            <span>{{ site.data.translations[page.lang][categoryClass] }}:</span>
             <span class="result-{{ category | downcase | remove: ' ' }} p-1 px-3 mr-1 mb-1 inline-block text-xs font-mono rounded bg-green-200 text-green-800 hover:bg-blue-200 hover:text-blue-800 transition duration-300 ease-in-out">{{ category }}</span>
           </li>
         {% endfor %}

@@ -11,7 +11,7 @@ permalink: /es/
 
 ¡Bienvenido a Palabro Monster, el hogar amigable y fácil de usar para todas tus necesidades de análisis de texto! Estamos emocionados de acompañarte en tu exploración de las profundidades de tu escritura, ya sea tu próxima gran novela, un informe crucial o un discurso importante. Nuestro objetivo es hacer que el proceso de escritura sea no solo más sencillo, sino también un poco más divertido. Aquí encontrarás nuestra innovadora herramienta Contador de Palabras, que hace mucho más que simplemente contar palabras, te ayuda a optimizar y comprender tu escritura de una manera atractiva. ¡Sumérgete y descubre la magia dentro de tus palabras!
 
-¿Qué es Palabro Monster?
+## ¿Qué es Palabro Monster?
 Contador de Palabras no se trata solo de contar palabras y caracteres. Es una plataforma diseñada para ayudarte en tu viaje de escritura, para refinar tu elección de palabras y equilibrar tu texto. Para usarlo, simplemente ingresa tu texto en el cuadro de arriba y comienza a escribir o pega texto de otra fuente. Al instante, verás cómo los recuentos de palabras y caracteres se actualizan a medida que realizas cambios en tu texto.
 
 Conocer el recuento de palabras es crucial para muchas tareas de escritura. ¿Eres un autor que intenta alcanzar un recuento de palabras específico para tu próxima novela, ensayo, informe o artículo? Nuestro Contador de Palabras te ayudará a mantenerte dentro del recuento de palabras objetivo, lo que facilitará y agilizará el proceso.

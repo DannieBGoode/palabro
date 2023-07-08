@@ -4,6 +4,12 @@ en:
   label_text: "Your text"
   label_placeholder: "Write your text here..."
   details_text: "Details"
+  words: "Words"
+  characters: "Characters"
+  sentences: "Sentences"
+  paragraphs: "Paragraphs"
+  readingtime: "Reading Time"
+  speakingtime: "Speaking Time"
   keyword_density_text: "Keyword Density"
 
 es:
@@ -12,4 +18,10 @@ es:
   label_text: "Tu texto"
   label_placeholder: "Escribe tu texto aquí..."
   details_text: "Detalles"
+  words: "Palabras"
+  characters: "Caracteres"
+  sentences: "Frases"
+  paragraphs: "Párrafos"
+  readingtime: "Tiempo de Lectura"
+  speakingtime: "Tiempo Hablado"
   keyword_density_text: "Densidad de Keyword"
