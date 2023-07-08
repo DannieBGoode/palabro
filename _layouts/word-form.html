@@ -8,8 +8,8 @@ layout: default
 
   <div id="textbox-container" class="w-full md:w-9/12">
     <div class="mb-20 mr-5">
-      <label for="message" class="block mb-2 text-xl font-medium text-gray-900 dark:text-white">Your text</label>
-      <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your text here..." style="min-height:410px"></textarea>
+      <label for="message" class="block mb-2 text-xl font-medium text-gray-900 dark:text-white">{{ site.data.translations.en.label_text }}</label>
+      <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="{{ site.data.translations.en.label_placeholder }}" style="min-height:410px"></textarea>
     </div>
   </div>
 
@@ -17,7 +17,7 @@ layout: default
     {% if page.categories %}
       <ul class="block" id="result-list">
         <li class="my-3 flex justify-between result-line">
-          <span><strong>Details</strong></span>
+          <span><strong>{{ site.data.translations.en.details_text }}</strong></span>
         </li>
         {% for category in page.categories %}
           {% assign categoryClass = category | replace: ' ', '' | downcase %}
@@ -27,7 +27,7 @@ layout: default
           </li>
         {% endfor %}
         <li class="my-3 flex justify-between result-line">
-          <span><strong>Keyword Density</strong></span>
+          <span><strong>{{ site.data.translations.en.keyword_density_text }}</strong></span>
         </li>
       </ul>
     {% endif %}

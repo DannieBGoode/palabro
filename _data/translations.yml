@@ -1,0 +1,15 @@
+en:
+  heading_title: "Word Counter"
+  heading_description: "A powerful word analysis tool for writers"
+  label_text: "Your text"
+  label_placeholder: "Write your text here..."
+  details_text: "Details"
+  keyword_density_text: "Keyword Density"
+
+es:
+  heading_title: "Cuenta Palabras"
+  heading_description: "Una poderosa herramienta de análisis de palabras para escritores"
+  label_text: "Tu texto"
+  label_placeholder: "Escribe tu texto aquí..."
+  details_text: "Detalles"
+  keyword_density_text: "Densidad de Keyword"
