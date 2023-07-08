@@ -1,6 +1,6 @@
 baseurl: "/"
 permalink: pretty
-title: "Jekyll Atlantic"
+title: "Palabro Monster"
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
@@ -14,7 +14,7 @@ google_analytics_id: false # replace with "UA-XXXX"
 
 logo:
   logo_desktop_image: assets/images/logo/logo.svg
-  logo_desktop_text: "Jekyll <strong>Atlantic</strong>"
+  logo_desktop_text: "Palabro <strong>Monster</strong>"
   logo_mobile_image: assets/images/logo/logo-mobile.svg
   logo_mobile_text: ""
   logo_desktop_height: "36px"
@@ -29,7 +29,7 @@ seo:
 
 plugins:
   - jekyll-environment-variables
-  - jekyll-postcss
+  - jekyll-postcss-v2
   - jekyll-paginate
 
 paginate: 3

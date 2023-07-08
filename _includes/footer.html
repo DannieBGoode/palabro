@@ -7,7 +7,14 @@
     </div>
     <div class="text-sm text-gray-600">
       <span>Free Jekyll theme by</span>
-<a class="text-green-500" href="
+      <a class="text-green-500" href="
         https://www.zerostatic.io">Zerostatic Themes</a>
     </div>
+    <ul class="flex flex-row text-center justify-center">
+    {% for item in site.data.menu.main %}
+      | <li class="mx-5">
+        <a class="py-2 text-green-500 hover:underline" href="{{ item.url }}">{{ item.name }}</a>
+      </li>
+    {% endfor %} |
+    </ul>
 </footer>
