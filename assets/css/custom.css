@@ -1,1 +1,18 @@
-body {}
+body {
+	.result-line {
+		border-bottom:solid 1px rgba(0, 0, 0, 0.0941176471);
+		padding: 8px 12px;
+	}
+	.branded { 
+	    margin-bottom: 0.5rem;
+	    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+	    --tw-gradient-from: #34d399;
+	    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(52, 211, 153, 0));
+	    --tw-gradient-to: #3b82f6;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+	    color: transparent;
+	    font-weight: inherit;
+	    font-style: normal;
+	}
+}
