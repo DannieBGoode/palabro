@@ -22,7 +22,3 @@ But we're not just about counting words at Palabro Monster. Our tool also offers
 We've also included a feature that displays the average reading and speaking time for your text, perfect for tailoring your writing to fit specific time frames. Our 'Reading Level' feature offers a snapshot of the education level that would be required for a reader to understand your text, allowing you to adjust your language use as necessary.
 
 > At Palabro Monster, we strive to ensure the accuracy of our tools. We make every effort to provide you with precise and reliable data, but we want to remind you that, like all tools, there may be slight variations in accuracy from time to time.
-
-
-
-<script src="/assets/js/counter.js"></script>
