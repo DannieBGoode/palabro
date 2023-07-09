@@ -7,3 +7,4 @@ module.exports = {
     ...(process.env.NODE_ENV == "production" ? [require("cssnano")({ preset: "default" })] : []),
   ],
 };
+console.log('process.env.NODE_ENV = ' + process.env.NODE_ENV);
