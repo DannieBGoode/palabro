@@ -2,19 +2,24 @@
   {% include logo.html %}
   <div class="flex items-center">
     <div class="relative">
-      <select id="language-picker" class="rounded border p-2">
-        {% for language in site.data.languages %}
-          {% assign selected = '' %}
-          {% if language.code == page.lang %}
-            {% assign selected = 'selected' %}
+      <select id="language-picker" class="rounded border p-2" onchange="location = this.value;">
+        {% for languageObject in site.data.menu.main %}
+          {% assign languageCode = languageObject[0] %}
+          {% assign menuItem = languageObject[1] %}
+          {% assign languageName = site.data.languages[languageCode] %}
+          {% if menuItem and languageName %}
+            {% assign selected = '' %}
+            {% if languageCode == page.lang %}
+              {% assign selected = 'selected' %}
+            {% endif %}
+            <option {{ selected }} value="{{ menuItem[0].url }}">{{ languageName }}</option>
           {% endif %}
-          <option {{ selected }} value="{{ language.path }}">{{ language.name }}</option>
         {% endfor %}
       </select>
     </div>
     <div id="menu-trigger">
       <svg aria-hidden="true" class="text-black ml-6" data-icon="bars" data-prefix="fas" focusable="false" height="24"
-        role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+        role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
           fill="currentColor"></path>
@@ -22,5 +27,3 @@
     </div>
   </div>
 </header>
-
-<script src="/assets/js/picker.js"></script>
