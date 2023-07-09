@@ -13,3 +13,31 @@ main:
     - name: "Nosotros"
       url: "/es/nosotros/"
       weight: 2
+  fr:
+    - name: "Home"
+      url: "/fr/"
+      weight: 1
+    - name: "À Propos"
+      url: "/fr/a-propos/"
+      weight: 2
+  pt:
+    - name: "Home"
+      url: "/pt/"
+      weight: 1
+    - name: "Sobre"
+      url: "/pt/sobre/"
+      weight: 2
+  it:
+    - name: "Home"
+      url: "/it/"
+      weight: 1
+    - name: "Informazioni"
+      url: "/it/informazioni/"
+      weight: 2
+  de:
+    - name: "Home"
+      url: "/de/"
+      weight: 1
+    - name: "Über uns"
+      url: "/de/ueber-uns/"
+      weight: 2

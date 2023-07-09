@@ -1,5 +1,12 @@
 <div class="logo hidden md:block">
-  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="{{ site.baseurl }}">
+  {% assign home_url = "/" %}
+  {% for item in site.data.menu.main[page.lang] %}
+    {% if item.name == "Home" %}
+      {% assign home_url = item.url %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="{{ home_url }}">
     {% if site.logo.logo_desktop_image %}
     <img class="mr-2" height="{{ site.logo.logo_desktop_height }}" width="{{ site.logo.logo_desktop_width }}"
       alt="{{ site.title }} Logo" src="{{ site.logo.logo_desktop_image | relative_url }}" />
@@ -10,7 +17,7 @@
   </a>
 </div>
 <div class="logo-mobile block md:hidden">
-  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="{{ site.baseurl }}">
+  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="{{ home_url | append: page.lang }}">
     {% if site.logo.logo_mobile_image %}
     <img height="{{ site.logo.logo_mobile_height }}" width="{{ site.logo.logo_mobile_width }}"
       alt="{{ site.title }} Logo" src="{{ site.logo.logo_mobile_image | relative_url }}" />
