@@ -11,6 +11,13 @@ en:
   readingtime: "Reading Time"
   speakingtime: "Speaking Time"
   keyword_density_text: "Keyword Density"
+  feedback_label: "Do you have feedback or suggestions? Send me a message"
+  your_name_label: "Your Name"
+  your_name_placeholder: "Username"
+  your_email_label: "Your Email"
+  your_email_placeholder: "name@mail.com"
+  your_message_label: "Your message"
+  button_text: "Send"
 
 es:
   heading_title: "Contador de Palabras"
@@ -25,6 +32,13 @@ es:
   readingtime: "Tiempo de Lectura"
   speakingtime: "Tiempo de Habla"
   keyword_density_text: "Densidad de Palabras Clave"
+  feedback_label: "¿Tienes comentarios o sugerencias? Envíame un mensaje"
+  your_name_label: "Tu nombre"
+  your_name_placeholder: "Nombre de usuario"
+  your_email_label: "Tu correo electrónico"
+  your_email_placeholder: "nombre@mail.com"
+  your_message_label: "Tu mensaje"
+  button_text: "Enviar"
 
 pt:
   heading_title: "Contador de Palavras"
@@ -39,6 +53,13 @@ pt:
   readingtime: "Tempo de Leitura"
   speakingtime: "Tempo de Fala"
   keyword_density_text: "Densidade de Palavras-chave"
+  feedback_label: "Tem feedback ou sugestões? Envie-me uma mensagem"
+  your_name_label: "Seu nome"
+  your_name_placeholder: "Nome de usuário"
+  your_email_label: "Seu email"
+  your_email_placeholder: "nome@mail.com"
+  your_message_label: "Sua mensagem"
+  button_text: "Enviar"
 
 it:
   heading_title: "Contatore di Parole"
@@ -53,6 +74,13 @@ it:
   readingtime: "Tempo di Lettura"
   speakingtime: "Tempo di Parlato"
   keyword_density_text: "Densità delle Parole Chiave"
+  feedback_label: "Hai feedback o suggerimenti? Inviami un messaggio"
+  your_name_label: "Il tuo nome"
+  your_name_placeholder: "Nome utente"
+  your_email_label: "La tua email"
+  your_email_placeholder: "nome@mail.com"
+  your_message_label: "Il tuo messaggio"
+  button_text: "Invia"
 
 fr:
   heading_title: "Compteur de Mots"
@@ -67,6 +95,13 @@ fr:
   readingtime: "Temps de Lecture"
   speakingtime: "Temps de Parole"
   keyword_density_text: "Densité des Mots-clés"
+  feedback_label: "Vous avez des commentaires ou des suggestions? Envoyez-moi un message"
+  your_name_label: "Votre nom"
+  your_name_placeholder: "Nom d'utilisateur"
+  your_email_label: "Votre courriel"
+  your_email_placeholder: "nom@mail.com"
+  your_message_label: "Votre message"
+  button_text: "Envoyer"
 
 de:
   heading_title: "Wortzähler"
@@ -81,6 +116,13 @@ de:
   readingtime: "Lesezeit"
   speakingtime: "Sprechzeit"
   keyword_density_text: "Keyword-Dichte"
+  feedback_label: "Haben Sie Feedback oder Vorschläge? Schicken Sie mir eine Nachricht"
+  your_name_label: "Ihr Name"
+  your_name_placeholder: "Benutzername"
+  your_email_label: "Ihre Email"
+  your_email_placeholder: "name@mail.com"
+  your_message_label: "Ihre Nachricht"
+  button_text: "Senden"
 
 ru:
   heading_title: "Счетчик слов"
@@ -95,6 +137,13 @@ ru:
   readingtime: "Время чтения"
   speakingtime: "Время речи"
   keyword_density_text: "Плотность ключевых слов"
+  feedback_label: "У вас есть отзывы или предложения? Отправьте мне сообщение"
+  your_name_label: "Ваше имя"
+  your_name_placeholder: "Имя пользователя"
+  your_email_label: "Ваша электронная почта"
+  your_email_placeholder: "name@mail.com"
+  your_message_label: "Ваше сообщение"
+  button_text: "Отправить"
 
 zh:
   heading_title: "字数计算器"
@@ -108,4 +157,11 @@ zh:
   paragraphs: "段落"
   readingtime: "阅读时间"
   speakingtime: "讲话时间"
-  keyword_density_text: "关键词密度"
+  keyword_density_text: "关键字密度"
+  feedback_label: "你有反馈或建议吗？给我发信息"
+  your_name_label: "你的名字"
+  your_name_placeholder: "用户名"
+  your_email_label: "你的电子邮件"
+  your_email_placeholder: "name@mail.com"
+  your_message_label: "你的信息"
+  button_text: "发送"
