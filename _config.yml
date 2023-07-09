@@ -32,7 +32,7 @@ seo:
 plugins:
   - jekyll-environment-variables
   - jekyll-postcss-v2
-  # - jekyll-paginate
+  - jekyll-paginate
 
 paginate: 3
 paginate_path: /blog/page:num/
