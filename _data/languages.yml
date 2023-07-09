@@ -1,0 +1,9 @@
+- code: en
+  name: English
+  path: /
+- code: es
+  name: Español
+  path: /es
+# - code: fr
+#   name: French
+#   path: /fr
