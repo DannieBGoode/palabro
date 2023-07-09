@@ -41,3 +41,17 @@ main:
     - name: "Über uns"
       url: "/de/ueber-uns/"
       weight: 2
+  ru:
+    - name: "Главная"
+      url: "/ru/"
+      weight: 1
+    - name: "О нас"
+      url: "/ru/o-nas/"
+      weight: 2
+  zh:
+    - name: "主页"
+      url: "/zh/"
+      weight: 1
+    - name: "关于我们"
+      url: "/zh/guan-yu-wo-men/"
+      weight: 2
