@@ -5,6 +5,7 @@ layout: word-form
 categories: ["Words", "Characters", "Sentences", "Paragraphs", "Reading Time", "Speaking Time" ]
 description: Herramienta gratuita en línea que proporciona información sobre el recuento de caracteres, oraciones, párrafos, densidad de palabras clave y más.
 thumbnail: "https://source.unsplash.com/YmQ0-nmWcV0/640x360"
+ref: counter
 lang: es
 permalink: /es/
 ---

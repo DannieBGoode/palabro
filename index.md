@@ -5,6 +5,7 @@ layout: word-form
 categories: ["Words", "Characters", "Sentences", "Paragraphs", "Reading Time", "Speaking Time" ]
 description: Free online tool that gives insights on character count, sentences, paragraphs, keyword density, and more.
 thumbnail: "https://source.unsplash.com/YmQ0-nmWcV0/640x360"
+ref: counter
 lang: en
 ---
 
