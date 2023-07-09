@@ -33,6 +33,7 @@ plugins:
   - jekyll-environment-variables
   - jekyll-postcss-v2
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 3
 paginate_path: /blog/page:num/
