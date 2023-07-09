@@ -1,10 +1,15 @@
 main:
-  - name: "Home"
-    url: "/"
+  - en:
+      name: "Home"
+      url: "/"
+    es:
+      name: "Home"
+      url: "/"
     weight: 1
-  # - name: "Blog"
-  #   url: "/blog/"
-  #   weight: 2
-  - name: "About"
-    url: "/about/"
+  - en:
+      name: "About"
+      url: "/about/"
+    es:
+      name: "Nosotros"
+      url: "/es/nosotros/"
     weight: 2

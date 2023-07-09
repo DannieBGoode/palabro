@@ -6,10 +6,18 @@
       {% endfor %}
     </div>
     <ul class="flex flex-row text-center justify-center">
-    {% for item in site.data.menu.main %}
-      | <li class="mx-5">
-        <a class="py-2 text-green-500 hover:underline" href="{{ item.url }}">{{ item.name }}</a>
-      </li>
-    {% endfor %} |
+      {% for item in site.data.menu.main %}
+        {% assign language_item = item[page.lang] %}
+        {% if language_item %}
+          | <li class="mx-5">
+            <a class="py-2 text-green-500 hover:underline" href="{{ language_item.url }}">{{ language_item.name }}</a>
+          </li>
+        {% else %}
+          | <li class="mx-5">
+            <a class="py-2 text-green-500 hover:underline" href="{{ item.en.url }}">{{ item.en.name }}</a>
+          </li>
+        {% endif %}
+      {% endfor %} |
     </ul>
+  </div>
 </footer>

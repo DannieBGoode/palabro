@@ -10,7 +10,13 @@
   </div>
   <div class="flex flex-col text-center text-white text-2xl font-bold">
     {% for item in site.data.menu.main %}
-    <a class="py-2" href="{{ item.url }}">{{ item.name }}</a>
+      {% assign language_item = item[page.lang] %}
+      {% if language_item %}
+        <a class="py-2" href="{{ language_item.url }}">{{ language_item.name }}</a>
+      {% else %}
+        <a class="py-2" href="{{ item.en.url }}">{{ item.en.name }}</a>
+      {% endif %}
     {% endfor %}
   </div>
+
 </div>
