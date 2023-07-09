@@ -1,4 +1,5 @@
 baseurl: "/"
+url: "https://palabro.monster"
 permalink: pretty
 title: "Palabro Monster"
 collections_dir: collections
