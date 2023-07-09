@@ -1,7 +1,6 @@
 ---
 layout: basic
 title: "Sobre Palabro Monster"
-date: 2018-11-28T15:15:34+10:00
 permalink: "/es/nosotros/"
 description: "Equipo de Palabro Monster"
 image: "https://source.unsplash.com/Dq5P6eWZXNY/1600x900"
