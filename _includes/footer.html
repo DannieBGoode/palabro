@@ -7,10 +7,11 @@
     </div>
     <ul class="flex flex-row text-center justify-center">
         {% for item in site.data.menu.main[page.lang] %}
-          | <li class="mx-5">
-            <a class="py-2 text-green-500 hover:underline" href="{{ item.url }}">{{ item.name }}</a>
+            <li class="mx-5 pl-30" style="border-left: 1px solid #ddd; padding-left: 30px">
+              <a class="py-2 text-green-900 hover:underline" href="{{ item.url }}">{{ item.name }}</a>
           </li>
-        {% endfor %} |
+        {% endfor %}
+          <li class="mx-5 pl-30" style="border-left: 1px solid #ddd; padding-left: 30px"></li>
     </ul>
   </div>
 </footer>
