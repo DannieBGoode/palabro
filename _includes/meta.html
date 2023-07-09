@@ -1,7 +1,7 @@
 <title>
   {% if page.meta_title %}
     {{ page.meta_title }}
-    {% elsif page.title %}
+  {% elsif page.title %}
     {{ page.title }}
     -
     {{ site.title}}
@@ -12,7 +12,7 @@
 
 {% if page.meta_description %}
   <meta name="description" content="{{ page.meta_description }}"/>
-  {% elsif page.description %}
+{% elsif page.description %}
   <meta name="description" content="{{ page.description }}"/>
 {% endif %}
 
@@ -23,7 +23,7 @@
 <meta property="og:url" content="{{ page.url }}"/>
 {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}"/>
-  {% elsif site.seo.meta_og_image %}
+{% elsif site.seo.meta_og_image %}
   <meta property="og:image" content="{{ site.seo.meta_og_image | absolute_url }}"/>
 {% endif %}
 {% if page.description %}<meta property="og:description" content="{{ page.description }}"/>
@@ -33,3 +33,12 @@
 {% endif %}
 {% if site.seo.meta_twitter_creator %}<meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}"/>
 {% endif %}
+
+<link rel="canonical" href="{{ page.url | prepend: site.url }}" />
+
+{% for p in site.pages %}
+    {% if p.ref == page.ref and p.lang != page.lang %}
+        <link rel="alternate" hreflang="{{p.lang}}" href="{{ p.url | prepend: site.url }}">
+    {% endif %}
+{% endfor %}
+
