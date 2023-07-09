@@ -11,6 +11,7 @@ sass:
   precision: 10
 
 google_analytics_id: false # replace with "UA-XXXX"
+google_tag_manager_id: GTM-PSCN3FJ
 
 logo:
   logo_desktop_image: assets/images/logo/logo.svg

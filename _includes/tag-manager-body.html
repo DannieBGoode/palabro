@@ -1,0 +1,13 @@
+{% if jekyll.environment == "production" %}
+    {% if site.env.NETLIFY_GOOGLE_ANALYTICS_ID %}
+    	{% assign gtagid = site.env.NETLIFY_GOOGLE_TAG_ID %}
+    {% elsif site.google_tag_manager_id %}
+    	{% assign gtagid = site.google_tag_manager_id %}
+    {% endif %}
+    {% if gtagid %}
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ gtagid }}"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+    {% endif %}
+{% endif %}
