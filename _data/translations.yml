@@ -18,6 +18,9 @@ en:
   your_email_placeholder: "name@mail.com"
   your_message_label: "Your message"
   button_text: "Send"
+  hours: "h"
+  minutes: "min"
+  seconds: "sec"
 
 es:
   heading_title: "Contador de Palabras"
@@ -39,6 +42,9 @@ es:
   your_email_placeholder: "nombre@mail.com"
   your_message_label: "Tu mensaje"
   button_text: "Enviar"
+  hours: "h"
+  minutes: "min"
+  seconds: "seg"
 
 pt:
   heading_title: "Contador de Palavras"
@@ -60,6 +66,9 @@ pt:
   your_email_placeholder: "nome@mail.com"
   your_message_label: "Sua mensagem"
   button_text: "Enviar"
+  hours: "h"
+  minutes: "min"
+  seconds: "seg"
 
 it:
   heading_title: "Contatore di Parole"
@@ -81,6 +90,9 @@ it:
   your_email_placeholder: "nome@mail.com"
   your_message_label: "Il tuo messaggio"
   button_text: "Invia"
+  hours: "h"
+  minutes: "min"
+  seconds: "sec"
 
 fr:
   heading_title: "Compteur de Mots"
@@ -102,6 +114,9 @@ fr:
   your_email_placeholder: "nom@mail.com"
   your_message_label: "Votre message"
   button_text: "Envoyer"
+  hours: "h"
+  minutes: "min"
+  seconds: "sec"
 
 de:
   heading_title: "Wortzähler"
@@ -123,6 +138,9 @@ de:
   your_email_placeholder: "name@mail.com"
   your_message_label: "Ihre Nachricht"
   button_text: "Senden"
+  hours: "Std"
+  minutes: "Min"
+  seconds: "Sek"
 
 ru:
   heading_title: "Счетчик слов"
@@ -144,6 +162,9 @@ ru:
   your_email_placeholder: "name@mail.com"
   your_message_label: "Ваше сообщение"
   button_text: "Отправить"
+  hours: "ч"
+  minutes: "мин"
+  seconds: "сек"
 
 zh:
   heading_title: "字数计算器"
@@ -165,3 +186,6 @@ zh:
   your_email_placeholder: "name@mail.com"
   your_message_label: "你的信息"
   button_text: "发送"
+  hours: "小时"
+  minutes: "分钟"
+  seconds: "秒"

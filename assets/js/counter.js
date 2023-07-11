@@ -8,6 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const speakingTimeResult = document.querySelector('.result-speakingtime');
     const resultList = document.getElementById('result-list');
 
+    const translationsElement = document.getElementById('translations');
+    const hoursTranslation = translationsElement.dataset.hours;
+    const minutesTranslation = translationsElement.dataset.minutes;
+    const secondsTranslation = translationsElement.dataset.seconds;
+
+
     function updateCounts() {
         let text = textArea.value.replace(/\s+/g, ' ').trim();
         let words = text.split(' ').filter(word => word !== "");
@@ -28,9 +34,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function updateTime(wordCount, wordsPerMinute, resultElement) {
         let time = wordCount / wordsPerMinute;
-        let minutes = Math.floor(time);
-        let seconds = Math.floor((time - minutes) * 60);
-        resultElement.textContent = (minutes > 0 ? minutes + ' min ' : '') + seconds + ' sec';
+        let hours = Math.floor(time / 60);
+        let minutes = Math.floor(time % 60);
+        let seconds = Math.floor((time * 60) % 60);
+        resultElement.textContent = (hours > 0 ? hours + ' ' + hoursTranslation : '') + ' ' + (minutes > 0 ? minutes + ' ' +minutesTranslation : '') + ' ' + seconds + ' ' +secondsTranslation;
     }
 
     function updateKeywords(wordFrequencies) {
