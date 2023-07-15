@@ -5,7 +5,7 @@
     	{% assign gtagid = site.google_tag_manager_id %}
     {% endif %}
     {% if gtagid %}
-    <link href="https://www.googletagmanager.com/gtag/js?id=mygtmid" rel="preload" as="script">
+    <link href="https://www.googletagmanager.com/gtag/js?id={{ gtagid }}" rel="preload" as="script">
     <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
 	<script>
 	(function(w,d,s,l,i){
