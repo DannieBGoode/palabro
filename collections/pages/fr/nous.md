@@ -3,7 +3,6 @@ layout: basic
 title: "À propos de nous"
 permalink: "/fr/a-propos/"
 description: "Équipe Palabro Monster"
-image: "https://source.unsplash.com/Dq5P6eWZXNY/1600x900"
 ref: about
 lang: fr
 ---

@@ -3,7 +3,6 @@ layout: basic
 title: "Sobre Nós"
 permalink: "/pt/sobre/"
 description: "Equipa Palabro Monster"
-image: "https://source.unsplash.com/Dq5P6eWZXNY/1600x900"
 ref: about
 lang: pt
 ---

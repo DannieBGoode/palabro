@@ -3,7 +3,6 @@ layout: basic
 title: "Über uns"
 permalink: "/de/ueber-uns/"
 description: "Palabro Monster Team"
-image: "https://source.unsplash.com/Dq5P6eWZXNY/1600x900"
 ref: about
 lang: de
 ---
