@@ -3,7 +3,6 @@ layout: basic
 title: "Chi siamo"
 permalink: "/it/informazioni/"
 description: "Team Palabro Monster"
-image: "https://source.unsplash.com/Dq5P6eWZXNY/1600x900"
 ref: about
 lang: it
 ---

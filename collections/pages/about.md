@@ -4,7 +4,6 @@ title: "About Us"
 date: 2018-11-28T15:15:34+10:00
 permalink: "/about/"
 description: "Palabro Monster team"
-image: "https://source.unsplash.com/Dq5P6eWZXNY/1600x900"
 ref: about
 lang: en
 ---
